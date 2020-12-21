@@ -58,7 +58,7 @@ def _sendEmail(to,context):
     server=smtplib.SMTP("smtp.gmail.com",587)
     server.ehlo()#server request
     server.starttls()#server establishment
-    server.login("alfatitas747ray@gmail.com","#Itsmine1")
+    server.login("EnterYourEmailId","EnterYourPassWord")
     server.sendmail("alfatitas747ray@gmail.com",to,context)
     server.close()
 def _jokes():
